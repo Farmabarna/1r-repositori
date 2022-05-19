@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 153, 255);
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:none ;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+      }
+      
+      li a:hover {
+        background-color: rgb(230, 72, 72);
+      }
+      
+      .columna {
+          float: left;
+          padding: 10px;
+      }
+
+      .columna.dreta {
+          width: 35%;
+      }
+
+      .columna.middle {
+          width: 50%;
+      }
+
+      .row:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+
+      @media screen and (max-width: 600px) {
+      .columna.dreta, .columna.middle {
+          width: 100%;
+      }
+      }
+      h2{
+          font-family: 'Courier New', Courier, monospace
+      }   
+      p, pre{
+          font-family: Arial, Helvetica, sans-serif
+      }
+      .web1{
+          width: 350px;
+          height: 300px;
+          align: left;
+      }
+      header{
+        background-color: rgb(0, 153, 255);
+      }
+      .logo{
+        width: 200px;
+        height: 50px;
+        float: right;
+        position: right top;
+        background-attachment: fixed;
+      }
+
+  </style>
+</head>
+<body>
+        
+  <ul>
+    <li><a class="active" href="inici.html">Inici</a></li>
+    <li><a href="productes.html">Productes</a></li>
+    <li><a href="serveis.html">Serveis</a></li>
+    <li><a href="contacte.html">Contacte</a></li>
+    <li><a href="aboutus.html">About Us</a></li>
+    <img class="logo" src="https://i.ibb.co/YhsjG1j/logo.png" alt="logo">
+</ul>
+
+    <br>
+    <br>
+    <br>
+ 
+    <div class="row">
+        <div class="columna middle">
+            <img src="https://cdn.pixabay.com/photo/2020/08/18/19/37/teachers-5499190_960_720.jpg" alt="imatge empresa" width="550px" height="350px">
+          <h2>Útlimes Noticies</h2>
+        <p><b>Creació de la nova pagina web</b><br>
+        Gracies al nou equip d'informàtics em aconsseguit una nova pagina web. Una pàgina on 
+        et surten les últimes noticies relacionades amb la farmàcia, un apartat per que pugueu 
+        comprar els nostres productes, el nostre contacte i mes. Es una pàgina fàcil de navegar
+        bonica i molt visible.</p> <img class="web1" src="https://i.ibb.co/nBtrpbK/codi.png" alt="codi">
+        </div>
+        
+        <div class="columna dreta">
+          <h2>Noticies relacionades</h2>
+          <p>AGENCIAS 03/05/2022 - 16:53 CEST > <a href="https://cincodias.elpais.com/cincodias/2022/05/03/companias/1651589351_942402.html" target="_blank">Pfizer gana en el primer trimestre un 61% más gracias a su vacuna del Covid-19</a> </p>
+          <br>
+          <p>CARLOS OTINIANO PULIDO 28/04/2022 - 08:58 CEST > <a href="https://cincodias.elpais.com/cincodias/2022/04/26/companias/1650996480_601277.html" target="_blank">Los laboratorios, a la espera de una dosis más fuerte de incentivos</a></p>
+          <br>
+          <p>A. SIMÓN 25/04/2022 - 12:57 CEST > <a href="https://cincodias.elpais.com/cincodias/2022/04/25/companias/1650876940_315447.html" target="_blank">Grifols cierra la megaoperación de compra de su rival alemana Biotest</a></p>
+          <br>
+          <p>ALFONSO SIMÓN RUIZ 14/04/2022 - 08:06 CEST > <a href="https://cincodias.elpais.com/cincodias/2022/04/13/companias/1649869283_583699.html" target="_blank">El fabricante que produjo en España 500 millones de jeringuillas para las vacunas del Covid</a></p>
+          <br>
+          <p>CINCO DÍAS 13/04/2022 - 17:53 CEST > <a href="https://cincodias.elpais.com/cincodias/2022/04/13/companias/1649869283_583699.html" target="_blank">GSK refuerza su negocio de cáncer pagando 1.750 millones por Sierra Oncology</a></p>
+          <br>
+          <p>ALFONSO SIMÓN RUIZ 12/04/2022 - 12:43 CEST > <a href="https://cincodias.elpais.com/cincodias/2022/04/13/companias/1649869283_583699.html" target="_blank">Grifols continúa adelante con la opa a Biotest al recibir el visto bueno de España, Alemania, Turquía y Austria</a></p>
+        </div>
+      </div>
+</body>
